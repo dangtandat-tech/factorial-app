@@ -46,7 +46,7 @@ def factorial_calculator():
     
     if st.button("Calculate"):
         result = fact(number)
-        st.wrte(f"Giai thừa của {number} là {result}")
+        st.write(f"Giai thừa của {number} là {result}")
 
 def greeting_page():
     st.title("Xin chào!")
