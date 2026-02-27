@@ -58,7 +58,6 @@ def greeting_page():
         st.rerun()
 
 def main(): 
-    st.image("/home/tandat/Downloads/Pictures/5e98773654dda418bd1ba7318cea038a.jpg", caption="A cat", width=100, channels="BGR")
     if 'logged_in' not in st.session_state:
         st.session_state.logged_in = False
     if 'username' not in st.session_state:
